@@ -16,6 +16,7 @@
 .header {
     background: url(../img/header_bg_image.jpg) no-repeat center center /cover;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .logo {
@@ -77,4 +78,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.main{
+    height: 100vh;
+    background: black;
 }
